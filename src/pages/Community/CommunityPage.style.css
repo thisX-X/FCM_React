@@ -1,0 +1,108 @@
+.communityContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.communityPageTitle {
+  font-family: "NanumSqueareNeoDEB";
+}
+
+.communityPageHR {
+  width: 80%;
+  height: 1px;
+  background-color: rgb(79, 79, 79);
+  outline: none;
+}
+
+.postList {
+  width: 80%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.postItem {
+  width: 95%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.postLink {
+  width: 100%;
+  color: black;
+  text-decoration-line: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postInfoContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.postTitle {
+  font-family: "NanumSqueareNeoDEB";
+  font-size: 18px;
+}
+
+.postAuthor {
+  font-family: "NanumSqueareNeoBRG";
+  font-size: 15px;
+  color: rgb(156, 156, 156);
+}
+
+.postDate {
+  font-family: "NanumSqueareNeoBRG";
+  font-size: 15px;
+  color: rgb(156, 156, 156);
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+
+.movementButton {
+  border: 0;
+  background-color: transparent;
+  font-family: "NanumSqueareNeoBRG";
+  color: rgb(183, 183, 183);
+}
+
+.pagination button {
+  border: 0;
+  background-color: transparent; /* 비활성 페이지는 투명색 */
+  color: rgb(0, 0, 0); /* 글자 색상 */
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #7fb412; /* 활성화된 페이지는 녹색 */
+  border-radius: 50%;
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+.writeButtonContainer {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.writeButton {
+  background-color: #7fb412;
+  color: white;
+  border: 0;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: "NanumSqueareNeoDEB";
+}

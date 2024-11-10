@@ -1,0 +1,24 @@
+.benefitContainer {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.benefitIconImage {
+  width: 75px;
+  height: 75px;
+}
+
+.benefitContent {
+  font-family: "NanumSqueareNeoDEB";
+  font-size: 20px;
+}
+
+.benefitSubContent {
+  font-family: "NanumSqueareNeoALT";
+  font-size: 10px;
+}

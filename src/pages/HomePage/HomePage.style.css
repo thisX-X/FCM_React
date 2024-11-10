@@ -1,0 +1,170 @@
+.homePageContainer {
+  width: 100%;
+}
+
+.bannerContainer {
+  font-family: "NanumSqueareNeoALT";
+  margin-top: -10px;
+  width: 100%;
+  height: 70vh;
+  background: url("/public/images/HomePageImage/BannerBackground.jpeg")
+    no-repeat center / cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 5%;
+}
+
+.bannerSubTitleText {
+  font-size: 12px;
+}
+
+.bannerTitleText {
+  font-family: "NanumSqueareNeoEHV";
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.bannerButton {
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.bannerButton:hover {
+  color: black;
+  background-color: white;
+}
+
+.benefitContentContainer {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.benefitTitleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.benefitSubTitle {
+  color: #2f7214;
+  font-family: "NanumSqueareNeoEHV";
+}
+
+.benefitTitleSet {
+  display: flex;
+  gap: 5px;
+  font-size: 30px;
+  align-items: center;
+}
+
+.benefitTitle {
+  font-family: "NanumSqueareNeoALT";
+}
+
+.benefitTitleWord {
+  background-color: #00d400;
+  color: white;
+  font-family: "NanumSqueareNeoDEB";
+  padding: 10px 0;
+}
+
+.hompageBenefitContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.benefitContour {
+  width: 2px;
+  height: 150px;
+  background-color: rgb(190, 190, 190);
+  border: 1px 1px 1px 1px solid black;
+}
+
+.homepageBottomContainer {
+  width: 100%;
+  height: 500px;
+  background: url(/public/images/HomePageImage/AIanalysis.jpeg) no-repeat center /
+    cover;
+  position: relative;
+  isolation: isolate;
+  color: black;
+  margin-top: 100px;
+}
+
+.homepageBottomContainer::after {
+  content: "";
+  position: absolute;
+  background: white;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.5;
+}
+
+.homepageBottomTitleContainerSet {
+  position: relative;
+  left: 20%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.homepageBottomTitleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.homepageTitleSet {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "NanumSqueareNeoDEB";
+  font-size: 10px;
+}
+
+.homepageTitle {
+  font-family: "NanumSqueareNeoEHV";
+  font-size: 25px;
+}
+
+.homepageBottomSubTitle {
+  font-family: "NanumSqueareNeoBRG";
+  font-size: 15px;
+}
+
+.hompageBottomTitleButton {
+  cursor: pointer;
+  font-family: "NanumSqueareNeoDEB";
+  width: 250px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.hompageBottomTitleButton:hover {
+  background-color: white;
+  color: rgb(231, 192, 140);
+}

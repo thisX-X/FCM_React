@@ -1,0 +1,38 @@
+.footerContentContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 200px;
+  font-family: "NanumSqueareNeoCBD";
+  color: white;
+}
+
+.footerLogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.footerInfoLogo {
+  width: 75px;
+  height: 75px;
+}
+
+.footerInfoTextContainer {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footerInfoTextContainer div {
+  display: flex;
+  justify-content: center;
+}
+
+.footerInfoCopyright {
+  font-size: 12px;
+}

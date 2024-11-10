@@ -1,0 +1,92 @@
+.writePostContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: "NanumSqueareNeoDEB";
+}
+
+.writePostTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.writePostForm {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formGroup {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #4f555e;
+    height: 50px;
+}
+
+.formGroup label {
+    font-size: 16px;
+    width: 15%;
+}
+
+.formGroup input {
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    font-family: "NanumSqueareNeoDEB";
+}
+
+.formGroup input:focus {
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+}
+
+.formContentGroup {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #4f555e;
+}
+
+.formContentGroup label {
+    font-size: 16px;
+    width: 15%;
+}
+
+.formContentGroup textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px soild red;
+    font-size: 16px;
+    border: none;
+    font-family: "NanumSqueareNeoDEB";
+}
+
+.formContentGroup textarea:focus {
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+}
+
+.submitButtonContainer {
+    text-align: right;
+}
+
+.submitButton {
+    background-color: #7fb412;
+    color: white;
+    padding: 14px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "NanumSqueareNeoDEB";
+}
