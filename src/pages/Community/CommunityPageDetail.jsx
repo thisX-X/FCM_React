@@ -5,6 +5,7 @@ import NotFoundPage from "../../pages/NotFound/NotFoundPage";
 import axios from "axios";
 import "./CommunityPageDetail.css";
 
+
 export default function CommunityPostDetail() {
     const { id } = useParams(); // Extracts the post id from the URL
     const [post, setPost] = useState(null);
@@ -15,7 +16,7 @@ export default function CommunityPostDetail() {
         const loadPost = async () => {
             setLoading(true);
             try {
-                const response = await axios.get(`/api/post/community/${id}`);
+                const response = await axios.get(`/api/post/${window.location.pathname}`);
                 setPost(response.data);
                 console.log(response.data);
             } catch (error) {

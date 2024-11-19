@@ -137,9 +137,11 @@ const CustomCalendar = () => {
                             <h2>이벤트 목록</h2>
                             {selectedDateEvents.map((event, index) => (
                                 <div key={index}>
-                                    <h3>{event.title}</h3>
-                                    <p>{`${event.date.getFullYear()}년 ${event.date.getMonth() + 1}월 ${event.date.getDate()}일`}</p>
-                                    <p>{event.description}</p>
+                                    <h3>제목: {event.title}</h3>
+                                    <p>업로드 일자: {`${event.date.getFullYear()}년 ${event.date.getMonth() + 1}월 ${event.date.getDate()}일`}</p>
+                                    <p>이벤트 설명: {event.description}</p>
+                                    <p>음식: {event.predictResults.toString()}</p>
+                                    <p>총칼로리: {event.totalFoodKcal}</p>
                                     {event.fileUrl && (
                                         <p>파일: <a href={event.fileUrl}>다운로드</a></p>
                                     )}
